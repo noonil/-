@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'KxMenuExample' target in the 'KxMenuExample' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "Util.h"
+
+#endif
+
+
+#define kTopBarHeight30 40
+#define blueColor [UIColor colorWithRed:0.10 green:0.68 blue:0.94 alpha:1]
+#define KBackGroundColor [UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:0.7]
+#define kHeight44 44
+#define kHeight64 64
+//#difine kUserName [[NSUserDefaults standardUserDefaults]stringForKey:@"username"]
